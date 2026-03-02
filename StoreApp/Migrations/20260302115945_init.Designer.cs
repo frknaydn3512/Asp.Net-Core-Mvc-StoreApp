@@ -12,7 +12,7 @@ using Repositories;
 namespace StoreApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20260301204333_init")]
+    [Migration("20260302115945_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -157,7 +157,7 @@ namespace StoreApp.Migrations
                         {
                             ProductId = 1,
                             CategoryId = 2,
-                            ImageUrl = "/images/1.jpg",
+                            ImageUrl = "/images/computer.jpg",
                             Price = 17000m,
                             ProductName = "Computer",
                             ShowCase = false,
@@ -167,7 +167,7 @@ namespace StoreApp.Migrations
                         {
                             ProductId = 2,
                             CategoryId = 2,
-                            ImageUrl = "/images/2.jpg",
+                            ImageUrl = "/images/keyboard.jpg",
                             Price = 1000m,
                             ProductName = "Keyboard",
                             ShowCase = false,
@@ -177,7 +177,7 @@ namespace StoreApp.Migrations
                         {
                             ProductId = 3,
                             CategoryId = 2,
-                            ImageUrl = "/images/3.jpg",
+                            ImageUrl = "/images/mouse.jpg",
                             Price = 500m,
                             ProductName = "Mouse",
                             ShowCase = false,
@@ -187,8 +187,8 @@ namespace StoreApp.Migrations
                         {
                             ProductId = 4,
                             CategoryId = 2,
-                            ImageUrl = "/images/4.jpg",
-                            Price = 7000m,
+                            ImageUrl = "/images/monitor.jpg",
+                            Price = 2000m,
                             ProductName = "Monitor",
                             ShowCase = false,
                             Summary = ""
@@ -197,9 +197,9 @@ namespace StoreApp.Migrations
                         {
                             ProductId = 5,
                             CategoryId = 2,
-                            ImageUrl = "/images/5.jpg",
-                            Price = 1500m,
-                            ProductName = "Deck",
+                            ImageUrl = "/images/phone.jpg",
+                            Price = 8000m,
+                            ProductName = "Phone",
                             ShowCase = false,
                             Summary = ""
                         },
@@ -207,50 +207,10 @@ namespace StoreApp.Migrations
                         {
                             ProductId = 6,
                             CategoryId = 1,
-                            ImageUrl = "/images/6.jpg",
-                            Price = 1500m,
-                            ProductName = "History",
-                            ShowCase = false,
-                            Summary = ""
-                        },
-                        new
-                        {
-                            ProductId = 7,
-                            CategoryId = 1,
-                            ImageUrl = "/images/7.jpg",
-                            Price = 1500m,
+                            ImageUrl = "/images/hamlet.jpg",
+                            Price = 50m,
                             ProductName = "Hamlet",
                             ShowCase = false,
-                            Summary = ""
-                        },
-                        new
-                        {
-                            ProductId = 8,
-                            CategoryId = 1,
-                            ImageUrl = "/images/7.jpg",
-                            Price = 1500m,
-                            ProductName = "Livanur",
-                            ShowCase = true,
-                            Summary = ""
-                        },
-                        new
-                        {
-                            ProductId = 9,
-                            CategoryId = 2,
-                            ImageUrl = "/images/7.jpg",
-                            Price = 2500m,
-                            ProductName = "Furkan",
-                            ShowCase = true,
-                            Summary = ""
-                        },
-                        new
-                        {
-                            ProductId = 10,
-                            CategoryId = 1,
-                            ImageUrl = "/images/7.jpg",
-                            Price = 3500m,
-                            ProductName = "Gencay",
-                            ShowCase = true,
                             Summary = ""
                         });
                 });

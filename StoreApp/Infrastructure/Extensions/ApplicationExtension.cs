@@ -54,7 +54,7 @@ namespace StoreApp.Infrastructure.Extensions
             {
                 user = new IdentityUser(adminUser)
                 {
-                    Email = "furkan@aydin.com",
+                    Email = "admin@gmail.com",
                     PhoneNumber = "555 555 55 55",
                     UserName = adminUser,
                 };

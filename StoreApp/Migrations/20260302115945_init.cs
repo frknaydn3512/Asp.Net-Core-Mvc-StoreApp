@@ -264,16 +264,12 @@ namespace StoreApp.Migrations
                 columns: new[] { "ProductId", "CategoryId", "ImageUrl", "Price", "ProductName", "ShowCase", "Summary" },
                 values: new object[,]
                 {
-                    { 1, 2, "/images/1.jpg", 17000m, "Computer", false, "" },
-                    { 2, 2, "/images/2.jpg", 1000m, "Keyboard", false, "" },
-                    { 3, 2, "/images/3.jpg", 500m, "Mouse", false, "" },
-                    { 4, 2, "/images/4.jpg", 7000m, "Monitor", false, "" },
-                    { 5, 2, "/images/5.jpg", 1500m, "Deck", false, "" },
-                    { 6, 1, "/images/6.jpg", 1500m, "History", false, "" },
-                    { 7, 1, "/images/7.jpg", 1500m, "Hamlet", false, "" },
-                    { 8, 1, "/images/7.jpg", 1500m, "Livanur", true, "" },
-                    { 9, 2, "/images/7.jpg", 2500m, "Furkan", true, "" },
-                    { 10, 1, "/images/7.jpg", 3500m, "Gencay", true, "" }
+                    { 1, 2, "/images/computer.jpg", 17000m, "Computer", false, "" },
+                    { 2, 2, "/images/keyboard.jpg", 1000m, "Keyboard", false, "" },
+                    { 3, 2, "/images/mouse.jpg", 500m, "Mouse", false, "" },
+                    { 4, 2, "/images/monitor.jpg", 2000m, "Monitor", false, "" },
+                    { 5, 2, "/images/phone.jpg", 8000m, "Phone", false, "" },
+                    { 6, 1, "/images/hamlet.jpg", 50m, "Hamlet", false, "" }
                 });
 
             migrationBuilder.CreateIndex(
