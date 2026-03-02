@@ -1,0 +1,30 @@
+## .NET / ASP.NET Core
+bin/
+obj/
+*.user
+*.suo
+
+## Visual Studio
+.vs/
+*.vsidx
+*.vspx
+
+## SQLite veritabanı dosyaları
+*.db
+*.db-shm
+*.db-wal
+
+## Hassas ayarlar (gerekirse)
+# appsettings.Production.json
+
+## OS dosyaları
+.DS_Store
+Thumbs.db
+
+## NuGet
+*.nupkg
+packages/
+
+## Logs
+*.log
+logs/
