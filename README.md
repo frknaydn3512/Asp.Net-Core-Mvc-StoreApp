@@ -4,6 +4,7 @@
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-MVC-5C2D91?style=for-the-badge&logo=microsoft)
 ![Entity Framework](https://img.shields.io/badge/Entity_Framework-Core-brightgreen?style=for-the-badge)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite)
+[![MSSQL](https://img.shields.io/badge/MS%20SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server)
 
 ASP.NET Core MVC ile geliştirilmiş, N-Katmanlı mimari kullanan tam özellikli bir e-ticaret web uygulaması. Ürün yönetimi, sepet sistemi, sipariş takibi ve kullanıcı yönetimini içerir.
 
